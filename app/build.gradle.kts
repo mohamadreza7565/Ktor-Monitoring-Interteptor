@@ -42,7 +42,7 @@ tasks.withType<KotlinCompile>().configureEach {
 }
 
 dependencies {
-    implementation(project(":ktor-interceptor"))
+    implementation(project(":ktor-monitoring-interceptor"))
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.activity.compose)
     implementation(libs.androidx.material3.android)

@@ -24,4 +24,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "KtorInterceptor"
 include(":app")
-include(":ktor-interceptor")
+include(":ktor-monitoring-interceptor")
