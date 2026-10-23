@@ -43,7 +43,7 @@ afterEvaluate {
                 from(components["release"])
                 groupId = "com.github.mohammadrezaallahgholi.KtorInterceptor"
                 artifactId = "ktor-monitoring-interceptor"
-                version = "1.0.1"
+                version = "1.0.2"
             }
         }
     }

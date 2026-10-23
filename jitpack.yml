@@ -3,4 +3,4 @@ jdk:
 before_install:
   - ./gradlew wrapper
 install:
-  - ./gradlew publishToMavenLocal
+  - ./gradlew :ktor-monitoring-interceptor:publishToMavenLocal :ktor-monitoring-interceptor-no-op:publishToMavenLocal -x test
