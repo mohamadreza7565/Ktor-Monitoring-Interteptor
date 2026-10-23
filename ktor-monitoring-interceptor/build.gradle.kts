@@ -41,9 +41,9 @@ afterEvaluate {
         publications {
             create<MavenPublication>("release") {
                 from(components["release"])
-                groupId = "com.github.mohammadrezaallahgholi.KtorInterceptor"
+                groupId = "com.github.mohamadreza7565.Ktor-Monitoring-Interteptor"
                 artifactId = "ktor-monitoring-interceptor"
-                version = "1.0.2"
+                version = "1.0.3"
             }
         }
     }

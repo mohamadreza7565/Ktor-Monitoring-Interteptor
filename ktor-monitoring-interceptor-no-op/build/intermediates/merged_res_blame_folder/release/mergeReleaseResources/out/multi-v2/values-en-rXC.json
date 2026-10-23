@@ -4,7 +4,7 @@
             "outputFile": "app.mra.ktor.monitoring.interceptor.ktor-monitoring-interceptor-no-op-mergeReleaseResources-27:/values-en-rXC/values-en-rXC.xml",
             "map": [
                 {
-                    "source": "/Users/mohammadrezaallahgholi/.gradle/caches/9.6.0/transforms/15a3105684d431ea6f396796bbbfdb5d/transformed/core-1.13.0/res/values-en-rXC/values-en-rXC.xml",
+                    "source": "/Users/mohammadrezaallahgholi/.gradle/caches/8.11.1/transforms/b060a1a8be589cdda60819040d24756c/transformed/core-1.13.0/res/values-en-rXC/values-en-rXC.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/mohammadrezaallahgholi/.gradle/caches/9.6.0/transforms/8320ec6dfcfd7342b2a45062c6275b45/transformed/ui-1.0.1/res/values-en-rXC/values-en-rXC.xml",
+                    "source": "/Users/mohammadrezaallahgholi/.gradle/caches/8.11.1/transforms/c054167d74d52c7be402ae624303684d/transformed/ui-1.0.1/res/values-en-rXC/values-en-rXC.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
@@ -43,7 +43,7 @@
             "outputFile": "app.mra.ktor.monitoring.interceptor.ktor-monitoring-interceptor-no-op-release-29:/values-en-rXC/values-en-rXC.xml",
             "map": [
                 {
-                    "source": "/Users/mohammadrezaallahgholi/.gradle/caches/9.6.0/transforms/15a3105684d431ea6f396796bbbfdb5d/transformed/core-1.13.0/res/values-en-rXC/values-en-rXC.xml",
+                    "source": "/Users/mohammadrezaallahgholi/.gradle/caches/8.11.1/transforms/b060a1a8be589cdda60819040d24756c/transformed/core-1.13.0/res/values-en-rXC/values-en-rXC.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -60,7 +60,7 @@
                     }
                 },
                 {
-                    "source": "/Users/mohammadrezaallahgholi/.gradle/caches/9.6.0/transforms/8320ec6dfcfd7342b2a45062c6275b45/transformed/ui-1.0.1/res/values-en-rXC/values-en-rXC.xml",
+                    "source": "/Users/mohammadrezaallahgholi/.gradle/caches/8.11.1/transforms/c054167d74d52c7be402ae624303684d/transformed/ui-1.0.1/res/values-en-rXC/values-en-rXC.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",

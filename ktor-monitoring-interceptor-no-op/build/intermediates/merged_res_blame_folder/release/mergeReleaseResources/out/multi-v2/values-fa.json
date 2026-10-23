@@ -4,24 +4,7 @@
             "outputFile": "app.mra.ktor.monitoring.interceptor.ktor-monitoring-interceptor-no-op-release-29:/values-fa/values-fa.xml",
             "map": [
                 {
-                    "source": "/Users/mohammadrezaallahgholi/.gradle/caches/9.6.0/transforms/8320ec6dfcfd7342b2a45062c6275b45/transformed/ui-1.0.1/res/values-fa/values-fa.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,192,271,365,447,566,651,734,801,867,941,1008",
-                        "endColumns": "86,78,93,81,118,84,82,66,65,73,66,116",
-                        "endOffsets": "187,266,360,442,561,646,729,796,862,936,1003,1120"
-                    },
-                    "to": {
-                        "startLines": "9,10,11,12,13,14,15,16,17,18,20,21",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "829,916,995,1089,1171,1290,1375,1458,1525,1591,1766,1833",
-                        "endColumns": "86,78,93,81,118,84,82,66,65,73,66,116",
-                        "endOffsets": "911,990,1084,1166,1285,1370,1453,1520,1586,1660,1828,1945"
-                    }
-                },
-                {
-                    "source": "/Users/mohammadrezaallahgholi/.gradle/caches/9.6.0/transforms/15a3105684d431ea6f396796bbbfdb5d/transformed/core-1.13.0/res/values-fa/values-fa.xml",
+                    "source": "/Users/mohammadrezaallahgholi/.gradle/caches/8.11.1/transforms/b060a1a8be589cdda60819040d24756c/transformed/core-1.13.0/res/values-fa/values-fa.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -35,6 +18,23 @@
                         "startOffsets": "105,204,306,405,505,606,712,1665",
                         "endColumns": "98,101,98,99,100,105,116,100",
                         "endOffsets": "199,301,400,500,601,707,824,1761"
+                    }
+                },
+                {
+                    "source": "/Users/mohammadrezaallahgholi/.gradle/caches/8.11.1/transforms/c054167d74d52c7be402ae624303684d/transformed/ui-1.0.1/res/values-fa/values-fa.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,192,271,365,447,566,651,734,801,867,941,1008",
+                        "endColumns": "86,78,93,81,118,84,82,66,65,73,66,116",
+                        "endOffsets": "187,266,360,442,561,646,729,796,862,936,1003,1120"
+                    },
+                    "to": {
+                        "startLines": "9,10,11,12,13,14,15,16,17,18,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "829,916,995,1089,1171,1290,1375,1458,1525,1591,1766,1833",
+                        "endColumns": "86,78,93,81,118,84,82,66,65,73,66,116",
+                        "endOffsets": "911,990,1084,1166,1285,1370,1453,1520,1586,1660,1828,1945"
                     }
                 }
             ]
@@ -43,24 +43,7 @@
             "outputFile": "app.mra.ktor.monitoring.interceptor.ktor-monitoring-interceptor-no-op-mergeReleaseResources-27:/values-fa/values-fa.xml",
             "map": [
                 {
-                    "source": "/Users/mohammadrezaallahgholi/.gradle/caches/9.6.0/transforms/8320ec6dfcfd7342b2a45062c6275b45/transformed/ui-1.0.1/res/values-fa/values-fa.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,192,271,365,447,566,651,734,801,867,941,1008",
-                        "endColumns": "86,78,93,81,118,84,82,66,65,73,66,116",
-                        "endOffsets": "187,266,360,442,561,646,729,796,862,936,1003,1120"
-                    },
-                    "to": {
-                        "startLines": "9,10,11,12,13,14,15,16,17,18,20,21",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "829,916,995,1089,1171,1290,1375,1458,1525,1591,1766,1833",
-                        "endColumns": "86,78,93,81,118,84,82,66,65,73,66,116",
-                        "endOffsets": "911,990,1084,1166,1285,1370,1453,1520,1586,1660,1828,1945"
-                    }
-                },
-                {
-                    "source": "/Users/mohammadrezaallahgholi/.gradle/caches/9.6.0/transforms/15a3105684d431ea6f396796bbbfdb5d/transformed/core-1.13.0/res/values-fa/values-fa.xml",
+                    "source": "/Users/mohammadrezaallahgholi/.gradle/caches/8.11.1/transforms/b060a1a8be589cdda60819040d24756c/transformed/core-1.13.0/res/values-fa/values-fa.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -74,6 +57,23 @@
                         "startOffsets": "105,204,306,405,505,606,712,1665",
                         "endColumns": "98,101,98,99,100,105,116,100",
                         "endOffsets": "199,301,400,500,601,707,824,1761"
+                    }
+                },
+                {
+                    "source": "/Users/mohammadrezaallahgholi/.gradle/caches/8.11.1/transforms/c054167d74d52c7be402ae624303684d/transformed/ui-1.0.1/res/values-fa/values-fa.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,192,271,365,447,566,651,734,801,867,941,1008",
+                        "endColumns": "86,78,93,81,118,84,82,66,65,73,66,116",
+                        "endOffsets": "187,266,360,442,561,646,729,796,862,936,1003,1120"
+                    },
+                    "to": {
+                        "startLines": "9,10,11,12,13,14,15,16,17,18,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "829,916,995,1089,1171,1290,1375,1458,1525,1591,1766,1833",
+                        "endColumns": "86,78,93,81,118,84,82,66,65,73,66,116",
+                        "endOffsets": "911,990,1084,1166,1285,1370,1453,1520,1586,1660,1828,1945"
                     }
                 }
             ]

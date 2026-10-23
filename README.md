@@ -2,7 +2,7 @@
 
 An in-app HTTP & WebSocket network inspection library for Android applications using **Ktor Client**, built with **Jetpack Compose**. Inspired by Chucker, **Ktor Monitoring Interceptor** captures network traffic in real-time, displays live system notifications, and provides a powerful, modern UI to inspect requests, responses, headers, cURL commands, and media files.
 
-[![JitPack](https://jitpack.io/v/mohammadrezaallahgholi/KtorInterceptor.svg)](https://jitpack.io/#mohammadrezaallahgholi/KtorInterceptor)
+[![JitPack](https://jitpack.io/v/mohamadreza7565/Ktor-Monitoring-Interteptor.svg)](https://jitpack.io/#mohamadreza7565/Ktor-Monitoring-Interteptor)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 [![Kotlin](https://img.shields.io/badge/Kotlin-2.1.10-purple.svg)](https://kotlinlang.org)
 [![Ktor](https://img.shields.io/badge/Ktor-3.1.3-orange.svg)](https://ktor.io)
@@ -63,10 +63,10 @@ Add the library and its **No-Op variant** to your module's `build.gradle.kts` fi
 ```kotlin
 dependencies {
     // Full Inspector for Debug builds
-    debugImplementation("com.github.mohammadrezaallahgholi.KtorInterceptor:ktor-monitoring-interceptor:latest-version")
+    debugImplementation("com.github.mohamadreza7565.Ktor-Monitoring-Interteptor:ktor-monitoring-interceptor:1.0.3")
 
     // Lightweight No-Op version for Release builds (Zero overhead, no compilation errors)
-    releaseImplementation("com.github.mohammadrezaallahgholi.KtorInterceptor:ktor-monitoring-interceptor-no-op:latest-version")
+    releaseImplementation("com.github.mohamadreza7565.Ktor-Monitoring-Interteptor:ktor-monitoring-interceptor-no-op:1.0.3")
 }
 ```
 
@@ -74,10 +74,10 @@ dependencies {
 ```groovy
 dependencies {
     // Full Inspector for Debug builds
-    debugImplementation 'com.github.mohammadrezaallahgholi.KtorInterceptor:ktor-monitoring-interceptor:latest-version'
+    debugImplementation 'com.github.mohamadreza7565.Ktor-Monitoring-Interteptor:ktor-monitoring-interceptor:1.0.3'
 
     // Lightweight No-Op version for Release builds
-    releaseImplementation 'com.github.mohammadrezaallahgholi.KtorInterceptor:ktor-monitoring-interceptor-no-op:latest-version'
+    releaseImplementation 'com.github.mohamadrezaallahgholi.KtorInterceptor:ktor-monitoring-interceptor-no-op:1.0.3'
 }
 ```
 
