@@ -57,23 +57,27 @@ dependencyResolutionManagement {
 
 ### Step 2. Add Dependency
 
-Add the library to your module's `build.gradle.kts` file:
+Add the library and its **No-Op variant** to your module's `build.gradle.kts` file:
 
 #### Kotlin DSL (`build.gradle.kts`)
 ```kotlin
 dependencies {
-    // Ktor Monitoring Interceptor
-    debugImplementation("com.github.mohammadrezaallahgholi:KtorInterceptor:latest-version")
-    
-    // Optional: Use no-op version or keep in debug builds only
-    // releaseImplementation(...)
+    // Full Inspector for Debug builds
+    debugImplementation("com.github.mohammadrezaallahgholi.KtorInterceptor:ktor-monitoring-interceptor:latest-version")
+
+    // Lightweight No-Op version for Release builds (Zero overhead, no compilation errors)
+    releaseImplementation("com.github.mohammadrezaallahgholi.KtorInterceptor:ktor-monitoring-interceptor-no-op:latest-version")
 }
 ```
 
 #### Groovy DSL (`build.gradle`)
 ```groovy
 dependencies {
-    debugImplementation 'com.github.mohammadrezaallahgholi:KtorInterceptor:1.0.0'
+    // Full Inspector for Debug builds
+    debugImplementation 'com.github.mohammadrezaallahgholi.KtorInterceptor:ktor-monitoring-interceptor:latest-version'
+
+    // Lightweight No-Op version for Release builds
+    releaseImplementation 'com.github.mohammadrezaallahgholi.KtorInterceptor:ktor-monitoring-interceptor-no-op:latest-version'
 }
 ```
 

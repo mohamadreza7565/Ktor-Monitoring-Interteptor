@@ -1,0 +1,3 @@
+# Consumer rules for no-op module
+-keep class app.mra.ktor.monitoring.interceptor.model.** { *; }
+-keep class app.mra.ktor.monitoring.interceptor.ui.InspectorActivity

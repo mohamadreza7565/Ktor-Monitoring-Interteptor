@@ -1,0 +1,6 @@
+[
+    {
+        "merged": "app.mra.ktor.monitoring.interceptor.ktor-monitoring-interceptor-no-op-release-29:/drawable-v21/notification_action_background.xml",
+        "source": "app.mra.ktor.monitoring.interceptor.ktor-monitoring-interceptor-no-op-core-1.13.0-0:/drawable-v21/notification_action_background.xml"
+    }
+]

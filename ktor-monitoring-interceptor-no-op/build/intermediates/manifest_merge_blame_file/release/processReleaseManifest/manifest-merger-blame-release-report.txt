@@ -1,0 +1,19 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="app.mra.ktor.monitoring.interceptor" >
+4
+5    <uses-sdk android:minSdkVersion="24" />
+6
+7    <application>
+7-->/Users/mohammadrezaallahgholi/Develop/Projects/KtorInterceptor/ktor-monitoring-interceptor-no-op/src/main/AndroidManifest.xml:3:5-8:19
+8        <activity
+8-->/Users/mohammadrezaallahgholi/Develop/Projects/KtorInterceptor/ktor-monitoring-interceptor-no-op/src/main/AndroidManifest.xml:4:9-7:62
+9            android:name="app.mra.ktor.monitoring.interceptor.ui.InspectorActivity"
+9-->/Users/mohammadrezaallahgholi/Develop/Projects/KtorInterceptor/ktor-monitoring-interceptor-no-op/src/main/AndroidManifest.xml:5:13-84
+10            android:exported="false"
+10-->/Users/mohammadrezaallahgholi/Develop/Projects/KtorInterceptor/ktor-monitoring-interceptor-no-op/src/main/AndroidManifest.xml:6:13-37
+11            android:theme="@android:style/Theme.NoDisplay" />
+11-->/Users/mohammadrezaallahgholi/Develop/Projects/KtorInterceptor/ktor-monitoring-interceptor-no-op/src/main/AndroidManifest.xml:7:13-59
+12    </application>
+13
+14</manifest>
