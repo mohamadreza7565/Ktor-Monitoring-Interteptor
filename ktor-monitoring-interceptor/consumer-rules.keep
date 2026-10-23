@@ -1,0 +1,5 @@
+# Keep data models used by Gson serialization / deserialization
+-keep class app.mra.ktor.monitoring.interceptor.model.** { *; }
+
+# Keep Inspector Activity
+-keep class app.mra.ktor.monitoring.interceptor.ui.InspectorActivity
