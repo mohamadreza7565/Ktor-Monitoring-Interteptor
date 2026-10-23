@@ -7,9 +7,9 @@
   <!-- that they should prefer consuming it instead. -->
   <!-- do_not_remove: published-with-gradle-metadata -->
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.github.mohammadrezaallahgholi</groupId>
+  <groupId>com.github.mohammadrezaallahgholi.KtorInterceptor</groupId>
   <artifactId>ktor-monitoring-interceptor-no-op</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <packaging>aar</packaging>
   <dependencies>
     <dependency>

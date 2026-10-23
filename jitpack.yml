@@ -2,3 +2,5 @@ jdk:
   - openjdk17
 before_install:
   - ./gradlew wrapper
+install:
+  - ./gradlew publishToMavenLocal
