@@ -1,0 +1,11 @@
+$dokka.format:javadoc-v1
+$dokka.linkExtension:html
+$dokka.location:app.mra.ktor.monitoring.interceptor.model/NetworkLog.HttpLog///PointingToDeclaration/app/mra/ktor/monitoring/interceptor/model/NetworkLog.HttpLog.html
+$dokka.location:app.mra.ktor.monitoring.interceptor.model/NetworkLog.WebSocketLog///PointingToDeclaration/app/mra/ktor/monitoring/interceptor/model/NetworkLog.WebSocketLog.html
+app.mra.ktor.monitoring.interceptor.model
+app.mra.ktor.monitoring.interceptor.notification
+app.mra.ktor.monitoring.interceptor.plugin
+app.mra.ktor.monitoring.interceptor.store
+app.mra.ktor.monitoring.interceptor.ui
+app.mra.ktor.monitoring.interceptor.util
+

@@ -15,5 +15,6 @@
 .externalNativeBuild
 .cxx
 local.properties
+versionControl.properties
 /.idea/
 /.kotlin/

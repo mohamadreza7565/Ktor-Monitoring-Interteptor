@@ -1,6 +1,0 @@
-jdk:
-  - openjdk17
-before_install:
-  - ./gradlew wrapper
-install:
-  - ./gradlew :ktor-monitoring-interceptor:publishToMavenLocal :ktor-monitoring-interceptor-no-op:publishToMavenLocal -x test

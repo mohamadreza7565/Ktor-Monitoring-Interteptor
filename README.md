@@ -2,7 +2,7 @@
 
 An in-app HTTP & WebSocket network inspection library for Android applications using **Ktor Client**, built with **Jetpack Compose**. Inspired by Chucker, **Ktor Monitoring Interceptor** captures network traffic in real-time, displays live system notifications, and provides a powerful, modern UI to inspect requests, responses, headers, cURL commands, and media files.
 
-[![JitPack](https://jitpack.io/v/mohamadreza7565/Ktor-Monitoring-Interteptor.svg)](https://jitpack.io/#mohamadreza7565/Ktor-Monitoring-Interteptor)
+[![Maven Central](https://img.shields.io/maven-central/v/io.github.mohamadreza7565/ktor-monitoring-interceptor.svg)](https://central.sonatype.com/artifact/io.github.mohamadreza7565/ktor-monitoring-interceptor)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 [![Kotlin](https://img.shields.io/badge/Kotlin-2.1.10-purple.svg)](https://kotlinlang.org)
 [![Ktor](https://img.shields.io/badge/Ktor-3.1.3-orange.svg)](https://ktor.io)
@@ -25,48 +25,16 @@ An in-app HTTP & WebSocket network inspection library for Android applications u
 
 ## 📦 Installation
 
-### Step 1. Add JitPack Repository
-
-Add JitPack to your project's `settings.gradle.kts` file:
-
-#### Kotlin DSL (`settings.gradle.kts`)
-```kotlin
-dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-    repositories {
-        google()
-        mavenCentral()
-        maven { url = uri("https://jitpack.io") }
-    }
-}
-```
-
-#### Groovy DSL (`settings.gradle`)
-```groovy
-dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-    repositories {
-        google()
-        mavenCentral()
-        maven { url 'https://jitpack.io' }
-    }
-}
-```
-
----
-
-### Step 2. Add Dependency
-
-Add the library and its **No-Op variant** to your module's `build.gradle.kts` file:
+Simply add the dependencies to your module's `build.gradle.kts` file:
 
 #### Kotlin DSL (`build.gradle.kts`)
 ```kotlin
 dependencies {
     // Full Inspector for Debug builds
-    debugImplementation("com.github.mohamadreza7565.Ktor-Monitoring-Interteptor:ktor-monitoring-interceptor:1.0.3")
+    debugImplementation("io.github.mohamadreza7565:ktor-monitoring-interceptor:last-version")
 
     // Lightweight No-Op version for Release builds (Zero overhead, no compilation errors)
-    releaseImplementation("com.github.mohamadreza7565.Ktor-Monitoring-Interteptor:ktor-monitoring-interceptor-no-op:1.0.3")
+    releaseImplementation("io.github.mohamadreza7565:ktor-monitoring-interceptor-no-op:last-version")
 }
 ```
 
@@ -74,10 +42,10 @@ dependencies {
 ```groovy
 dependencies {
     // Full Inspector for Debug builds
-    debugImplementation 'com.github.mohamadreza7565.Ktor-Monitoring-Interteptor:ktor-monitoring-interceptor:1.0.3'
+    debugImplementation 'io.github.mohamadreza7565:ktor-monitoring-interceptor:last-version'
 
     // Lightweight No-Op version for Release builds
-    releaseImplementation 'com.github.mohamadrezaallahgholi.KtorInterceptor:ktor-monitoring-interceptor-no-op:1.0.3'
+    releaseImplementation 'io.github.mohamadreza7565:ktor-monitoring-interceptor-no-op:last-version'
 }
 ```
 
