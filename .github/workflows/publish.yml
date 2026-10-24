@@ -24,11 +24,39 @@ jobs:
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
 
+      - name: Check Secrets Presence
+        run: |
+          if [ -z "${{ secrets.MAVEN_CENTRAL_USERNAME }}" ]; then
+            echo "❌ Error: MAVEN_CENTRAL_USERNAME secret is missing!"
+            exit 1
+          fi
+          if [ -z "${{ secrets.MAVEN_CENTRAL_PASSWORD }}" ]; then
+            echo "❌ Error: MAVEN_CENTRAL_PASSWORD secret is missing!"
+            exit 1
+          fi
+          if [ -z "${{ secrets.SIGNING_KEY_ID }}" ]; then
+            echo "❌ Error: SIGNING_KEY_ID secret is missing!"
+            exit 1
+          fi
+          if [ -z "${{ secrets.SIGNING_PASSWORD }}" ]; then
+            echo "❌ Error: SIGNING_PASSWORD secret is missing!"
+            exit 1
+          fi
+          if [ -z "${{ secrets.SIGNING_SECRET_KEY }}" ]; then
+            echo "❌ Error: SIGNING_SECRET_KEY secret is missing!"
+            exit 1
+          fi
+          echo "✅ All required secrets are present."
+
       - name: Publish to Maven Central
-        run: ./gradlew publishToMavenCentral --no-configuration-cache
+        run: ./gradlew publishToMavenCentral --no-configuration-cache --info
         env:
           ORG_GRADLE_PROJECT_mavenCentralUsername: ${{ secrets.MAVEN_CENTRAL_USERNAME }}
           ORG_GRADLE_PROJECT_mavenCentralPassword: ${{ secrets.MAVEN_CENTRAL_PASSWORD }}
           ORG_GRADLE_PROJECT_signingKeyId: ${{ secrets.SIGNING_KEY_ID }}
+          ORG_GRADLE_PROJECT_signing_keyId: ${{ secrets.SIGNING_KEY_ID }}
           ORG_GRADLE_PROJECT_signingPassword: ${{ secrets.SIGNING_PASSWORD }}
+          ORG_GRADLE_PROJECT_signing_password: ${{ secrets.SIGNING_PASSWORD }}
+          ORG_GRADLE_PROJECT_signingKey: ${{ secrets.SIGNING_SECRET_KEY }}
+          ORG_GRADLE_PROJECT_signing_key: ${{ secrets.SIGNING_SECRET_KEY }}
           ORG_GRADLE_PROJECT_signingInMemoryKey: ${{ secrets.SIGNING_SECRET_KEY }}
