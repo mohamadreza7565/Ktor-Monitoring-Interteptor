@@ -40,7 +40,7 @@ import app.mra.ktor.interceptor.ui.theme.KtorInterceptorTheme
 import app.mra.ktor.monitoring.interceptor.plugin.KtorInspector
 import app.mra.ktor.monitoring.interceptor.ui.InspectorActivity
 import io.ktor.client.HttpClient
-import io.ktor.client.engine.okhttp.OkHttp
+import io.ktor.client.engine.android.Android
 import io.ktor.client.plugins.contentnegotiation.ContentNegotiation
 import io.ktor.client.plugins.websocket.WebSockets
 import io.ktor.client.plugins.websocket.webSocket
@@ -67,7 +67,7 @@ data class SamplePost(
 class MainActivity : ComponentActivity() {
 
     private val httpClient by lazy {
-        HttpClient(OkHttp) {
+        HttpClient(Android) {
             install(WebSockets)
             install(ContentNegotiation) {
                 json(Json {

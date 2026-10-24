@@ -29,7 +29,6 @@ import app.mra.ktor.monitoring.interceptor.model.WebSocketFrameLog
 import app.mra.ktor.monitoring.interceptor.store.InspectorLogStore
 import app.mra.ktor.monitoring.interceptor.ui.component.InlineAudioPlayerView
 import app.mra.ktor.monitoring.interceptor.util.AudioCacheManager
-import okhttp3.internal.toImmutableList
 import java.io.File
 import java.text.SimpleDateFormat
 import java.util.Date
@@ -100,7 +99,7 @@ fun WebSocketDetailScreen(
             )
 
             val sortedFrames = remember(wsLog.frames) {
-                wsLog.frames.sortedByDescending { it.timestamp }.toImmutableList()
+                wsLog.frames.sortedByDescending { it.timestamp }.toList()
             }
 
             if (sortedFrames.isEmpty()) {
