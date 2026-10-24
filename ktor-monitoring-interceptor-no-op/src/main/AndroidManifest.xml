@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
     <application>
         <activity
             android:name="app.mra.ktor.monitoring.interceptor.ui.InspectorActivity"
             android:exported="false"
             android:theme="@android:style/Theme.NoDisplay" />
+
+        <provider
+            android:name="app.mra.ktor.monitoring.interceptor.util.KtorInspectorInitializerProvider"
+            android:authorities="${applicationId}.ktorinspector.initializer"
+            android:exported="false"
+            android:initOrder="100" />
     </application>
+
 </manifest>

@@ -1,4 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <application>
+        <activity
+            android:name="app.mra.ktor.monitoring.interceptor.ui.InspectorActivity"
+            android:exported="false"
+            android:launchMode="singleTop" />
+
+        <provider
+            android:name="app.mra.ktor.monitoring.interceptor.util.KtorInspectorInitializerProvider"
+            android:authorities="${applicationId}.ktorinspector.initializer"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <provider
+            android:name="app.mra.ktor.monitoring.interceptor.util.KtorInspectorFileProvider"
+            android:authorities="${applicationId}.ktorinspector.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/ktor_inspector_file_paths" />
+        </provider>
+    </application>
+
 </manifest>

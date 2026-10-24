@@ -9,6 +9,12 @@
             android:name="app.mra.ktor.monitoring.interceptor.ui.InspectorActivity"
             android:exported="false"
             android:theme="@android:style/Theme.NoDisplay" />
+
+        <provider
+            android:name="app.mra.ktor.monitoring.interceptor.util.KtorInspectorInitializerProvider"
+            android:authorities="dollar_openBracket_applicationId_closeBracket.ktorinspector.initializer"
+            android:exported="false"
+            android:initOrder="100" />
     </application>
 
 </manifest>
