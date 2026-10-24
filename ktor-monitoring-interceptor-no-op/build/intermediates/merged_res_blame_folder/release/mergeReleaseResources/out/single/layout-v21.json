@@ -1,18 +1,18 @@
 [
     {
         "merged": "app.mra.ktor.monitoring.interceptor.ktor-monitoring-interceptor-no-op-release-29:/layout-v21/notification_action.xml",
-        "source": "app.mra.ktor.monitoring.interceptor.ktor-monitoring-interceptor-no-op-core-1.13.0-13:/layout-v21/notification_action.xml"
+        "source": "app.mra.ktor.monitoring.interceptor.ktor-monitoring-interceptor-no-op-core-1.13.0-6:/layout-v21/notification_action.xml"
     },
     {
         "merged": "app.mra.ktor.monitoring.interceptor.ktor-monitoring-interceptor-no-op-release-29:/layout-v21/notification_action_tombstone.xml",
-        "source": "app.mra.ktor.monitoring.interceptor.ktor-monitoring-interceptor-no-op-core-1.13.0-13:/layout-v21/notification_action_tombstone.xml"
+        "source": "app.mra.ktor.monitoring.interceptor.ktor-monitoring-interceptor-no-op-core-1.13.0-6:/layout-v21/notification_action_tombstone.xml"
     },
     {
         "merged": "app.mra.ktor.monitoring.interceptor.ktor-monitoring-interceptor-no-op-release-29:/layout-v21/notification_template_custom_big.xml",
-        "source": "app.mra.ktor.monitoring.interceptor.ktor-monitoring-interceptor-no-op-core-1.13.0-13:/layout-v21/notification_template_custom_big.xml"
+        "source": "app.mra.ktor.monitoring.interceptor.ktor-monitoring-interceptor-no-op-core-1.13.0-6:/layout-v21/notification_template_custom_big.xml"
     },
     {
         "merged": "app.mra.ktor.monitoring.interceptor.ktor-monitoring-interceptor-no-op-release-29:/layout-v21/notification_template_icon_group.xml",
-        "source": "app.mra.ktor.monitoring.interceptor.ktor-monitoring-interceptor-no-op-core-1.13.0-13:/layout-v21/notification_template_icon_group.xml"
+        "source": "app.mra.ktor.monitoring.interceptor.ktor-monitoring-interceptor-no-op-core-1.13.0-6:/layout-v21/notification_template_icon_group.xml"
     }
 ]

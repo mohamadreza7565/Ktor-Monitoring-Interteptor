@@ -48,6 +48,12 @@ tasks.withType<KotlinCompile>().configureEach {
 dependencies {
     debugImplementation(project(":ktor-monitoring-interceptor"))
     releaseImplementation(project(":ktor-monitoring-interceptor-no-op"))
+    implementation(libs.ktor.core)
+    implementation(libs.ktor.okhttp)
+    implementation(libs.ktor.content.negotiation)
+    implementation(libs.ktor.serialization)
+    implementation(libs.ktor.websockets)
+    implementation(libs.kotlinx.serialization.json)
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.activity.compose)
     implementation(libs.androidx.material3.android)

@@ -1,22 +1,22 @@
 [
     {
         "merged": "app.mra.ktor.monitoring.interceptor.ktor-monitoring-interceptor-no-op-release-29:/layout/ime_secondary_split_test_activity.xml",
-        "source": "app.mra.ktor.monitoring.interceptor.ktor-monitoring-interceptor-no-op-core-1.13.0-13:/layout/ime_secondary_split_test_activity.xml"
+        "source": "app.mra.ktor.monitoring.interceptor.ktor-monitoring-interceptor-no-op-core-1.13.0-6:/layout/ime_secondary_split_test_activity.xml"
     },
     {
         "merged": "app.mra.ktor.monitoring.interceptor.ktor-monitoring-interceptor-no-op-release-29:/layout/notification_template_part_time.xml",
-        "source": "app.mra.ktor.monitoring.interceptor.ktor-monitoring-interceptor-no-op-core-1.13.0-13:/layout/notification_template_part_time.xml"
+        "source": "app.mra.ktor.monitoring.interceptor.ktor-monitoring-interceptor-no-op-core-1.13.0-6:/layout/notification_template_part_time.xml"
     },
     {
         "merged": "app.mra.ktor.monitoring.interceptor.ktor-monitoring-interceptor-no-op-release-29:/layout/notification_template_part_chronometer.xml",
-        "source": "app.mra.ktor.monitoring.interceptor.ktor-monitoring-interceptor-no-op-core-1.13.0-13:/layout/notification_template_part_chronometer.xml"
+        "source": "app.mra.ktor.monitoring.interceptor.ktor-monitoring-interceptor-no-op-core-1.13.0-6:/layout/notification_template_part_chronometer.xml"
     },
     {
         "merged": "app.mra.ktor.monitoring.interceptor.ktor-monitoring-interceptor-no-op-release-29:/layout/ime_base_split_test_activity.xml",
-        "source": "app.mra.ktor.monitoring.interceptor.ktor-monitoring-interceptor-no-op-core-1.13.0-13:/layout/ime_base_split_test_activity.xml"
+        "source": "app.mra.ktor.monitoring.interceptor.ktor-monitoring-interceptor-no-op-core-1.13.0-6:/layout/ime_base_split_test_activity.xml"
     },
     {
         "merged": "app.mra.ktor.monitoring.interceptor.ktor-monitoring-interceptor-no-op-release-29:/layout/custom_dialog.xml",
-        "source": "app.mra.ktor.monitoring.interceptor.ktor-monitoring-interceptor-no-op-core-1.13.0-13:/layout/custom_dialog.xml"
+        "source": "app.mra.ktor.monitoring.interceptor.ktor-monitoring-interceptor-no-op-core-1.13.0-6:/layout/custom_dialog.xml"
     }
 ]
