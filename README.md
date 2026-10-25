@@ -25,16 +25,26 @@ An in-app HTTP & WebSocket network inspection library for Android applications u
 
 ## 📦 Installation
 
+Add JitPack repository to your `settings.gradle.kts`:
+
+```kotlin
+dependencyResolutionManagement {
+    repositories {
+        maven { url = uri("https://jitpack.io") }
+    }
+}
+```
+
 Simply add the dependencies to your module's `build.gradle.kts` file:
 
 #### Kotlin DSL (`build.gradle.kts`)
 ```kotlin
 dependencies {
     // Full Inspector for Debug builds
-    debugImplementation("io.github.mohamadreza7565:ktor-monitoring-interceptor:last-version")
+    debugImplementation("com.github.mohamadreza7565:ktor-monitoring-interceptor:1.0.8")
 
     // Lightweight No-Op version for Release builds (Zero overhead, no compilation errors)
-    releaseImplementation("io.github.mohamadreza7565:ktor-monitoring-interceptor-no-op:last-version")
+    releaseImplementation("com.github.mohamadreza7565:ktor-monitoring-interceptor-no-op:1.0.8")
 }
 ```
 
@@ -42,10 +52,10 @@ dependencies {
 ```groovy
 dependencies {
     // Full Inspector for Debug builds
-    debugImplementation 'io.github.mohamadreza7565:ktor-monitoring-interceptor:last-version'
+    debugImplementation 'com.github.mohamadreza7565:ktor-monitoring-interceptor:1.0.8'
 
     // Lightweight No-Op version for Release builds
-    releaseImplementation 'io.github.mohamadreza7565:ktor-monitoring-interceptor-no-op:last-version'
+    releaseImplementation 'com.github.mohamadreza7565:ktor-monitoring-interceptor-no-op:1.0.8'
 }
 ```
 
@@ -53,12 +63,12 @@ dependencies {
 
 ## 🚀 Quick Start & Usage
 
-### 1. Install `KtorInspector` Plugin
+### 1. Install `KtorMonitoringInspector` Plugin
 
-Install `KtorInspector` into your Ktor `HttpClient` instance:
+Install `KtorMonitoringInspector` into your Ktor `HttpClient` instance:
 
 ```kotlin
-import app.mra.ktor.monitoring.interceptor.plugin.KtorInspector
+import app.mra.ktor.monitoring.interceptor.plugin.KtorMonitoringInspector
 import io.ktor.client.HttpClient
 import io.ktor.client.engine.okhttp.OkHttp
 import io.ktor.client.plugins.websocket.WebSockets
@@ -67,8 +77,8 @@ val httpClient = HttpClient(OkHttp) {
     // Optional: Enable WebSockets plugin if monitoring WebSocket sessions
     install(WebSockets)
 
-    // Install Ktor Inspector Plugin
-    install(KtorInspector) {
+    // Install Ktor Monitoring Inspector Plugin
+    install(KtorMonitoringInspector) {
         enabled = true          // Enable or disable the inspector (Default: true)
         maxRetainedLogs = 100   // Limit in-memory log history (Default: 100)
     }
@@ -117,7 +127,7 @@ You can conditionally configure the plugin to run only in Debug builds:
 
 ```kotlin
 val httpClient = HttpClient {
-    install(KtorInspector) {
+    install(KtorMonitoringInspector) {
         // Automatically disable inspector in release builds
         enabled = BuildConfig.DEBUG
         

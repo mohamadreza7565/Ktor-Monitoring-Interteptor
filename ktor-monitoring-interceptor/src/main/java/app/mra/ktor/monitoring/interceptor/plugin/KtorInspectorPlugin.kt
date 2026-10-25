@@ -74,7 +74,7 @@ suspend fun extractRequestBodyText(content: Any?): String? {
     }.getOrNull()
 }
 
-val KtorInspector = createClientPlugin("KtorInspector", ::InspectorConfig) {
+val KtorMonitoringInspector = createClientPlugin("KtorMonitoringInspector", ::InspectorConfig) {
     val config = pluginConfig
 
     if (!config.enabled) return@createClientPlugin
@@ -226,3 +226,10 @@ val KtorInspector = createClientPlugin("KtorInspector", ::InspectorConfig) {
         }
     }
 }
+
+@Deprecated(
+    message = "Use KtorMonitoringInspector instead",
+    replaceWith = ReplaceWith("KtorMonitoringInspector")
+)
+val KtorInspector = KtorMonitoringInspector
+

@@ -35,11 +35,11 @@
         {
           "name": "ktor-monitoring-interceptor-no-op-1.0.8.aar",
           "url": "ktor-monitoring-interceptor-no-op-1.0.8.aar",
-          "size": 24019,
-          "sha512": "be77d3a8904aed4fca0167fc00d78bfb3b2367ad29128839d7bb92b9e3b8c0188e7c7e28b0bf4aca6f9295b50769c93bf7be729cb9e5b97896fd4c998228a453",
-          "sha256": "b8ff2e14d827a82eefb1e96d533d0a956eed38796d606c3ce9043a620500c22e",
-          "sha1": "36c603147e72e1b7a987f296e013a54064a001ea",
-          "md5": "41edd028f2d7b4898cc64248c65fbbdf"
+          "size": 24237,
+          "sha512": "1382828ae0e0c17fe33e4310250676cfad140bf27f2fe2e72f88c22edc36a2cf32e03d92b7a3612e4b99eb95596a6a79e3fd472238516d27861a7349e1e6901a",
+          "sha256": "f943493e4540c3ff886f528b07d0e9a291130d31a9cb24d3bce9910934a87fb5",
+          "sha1": "8f0422b46f8b32171f3dee4c3c5473059b5daade",
+          "md5": "ea703be83fc94896461894e4300f7eaa"
         }
       ]
     },
@@ -85,11 +85,11 @@
         {
           "name": "ktor-monitoring-interceptor-no-op-1.0.8.aar",
           "url": "ktor-monitoring-interceptor-no-op-1.0.8.aar",
-          "size": 24019,
-          "sha512": "be77d3a8904aed4fca0167fc00d78bfb3b2367ad29128839d7bb92b9e3b8c0188e7c7e28b0bf4aca6f9295b50769c93bf7be729cb9e5b97896fd4c998228a453",
-          "sha256": "b8ff2e14d827a82eefb1e96d533d0a956eed38796d606c3ce9043a620500c22e",
-          "sha1": "36c603147e72e1b7a987f296e013a54064a001ea",
-          "md5": "41edd028f2d7b4898cc64248c65fbbdf"
+          "size": 24237,
+          "sha512": "1382828ae0e0c17fe33e4310250676cfad140bf27f2fe2e72f88c22edc36a2cf32e03d92b7a3612e4b99eb95596a6a79e3fd472238516d27861a7349e1e6901a",
+          "sha256": "f943493e4540c3ff886f528b07d0e9a291130d31a9cb24d3bce9910934a87fb5",
+          "sha1": "8f0422b46f8b32171f3dee4c3c5473059b5daade",
+          "md5": "ea703be83fc94896461894e4300f7eaa"
         }
       ]
     },
@@ -105,11 +105,11 @@
         {
           "name": "ktor-monitoring-interceptor-no-op-1.0.8-sources.jar",
           "url": "ktor-monitoring-interceptor-no-op-1.0.8-sources.jar",
-          "size": 6065,
-          "sha512": "5312afc95a68a0c34750f01bd0baf9b7b3ba64fd0269de09f6a5c1e5770bab774ba9445b423c39db2fb246c22a6cea7f845832cac74827d2b6b1fd1d9a50a703",
-          "sha256": "0bb41c4fe0cb8e1ae8fdef5d03fade534b09f985f461cc1f29e7f1bfa97b536d",
-          "sha1": "38e1e845287b1994c6c62ba561cbadeca20adf02",
-          "md5": "a6190722546fc80c51e0d59de30a1a76"
+          "size": 6125,
+          "sha512": "0f4921031b2ce2afa701f25b0243d4c9804ee449dc69429f6d32a3b50223124e0d634d54b41375eddee43379acb023b8735978dae569319c51f8e0c745c99c3e",
+          "sha256": "3d5120444e54599064640fb460cb363fbc8fe66263983f7b4da2a95718f287fa",
+          "sha1": "27b6bc9e0a34a29cd49d1157ab41411b1667fcdb",
+          "md5": "7510a9d39e29d7d5c1de08e25f63b81b"
         }
       ]
     }

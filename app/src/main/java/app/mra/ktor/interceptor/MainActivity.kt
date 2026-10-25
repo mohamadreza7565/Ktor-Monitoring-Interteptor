@@ -37,7 +37,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import app.mra.ktor.interceptor.ui.theme.KtorInterceptorTheme
-import app.mra.ktor.monitoring.interceptor.plugin.KtorInspector
+import app.mra.ktor.monitoring.interceptor.plugin.KtorMonitoringInspector
 import app.mra.ktor.monitoring.interceptor.ui.InspectorActivity
 import io.ktor.client.HttpClient
 import io.ktor.client.engine.android.Android
@@ -76,7 +76,7 @@ class MainActivity : ComponentActivity() {
                     ignoreUnknownKeys = true
                 })
             }
-            install(KtorInspector) {
+            install(KtorMonitoringInspector) {
                 enabled = true
                 maxRetainedLogs = 100
                 showNotification = true

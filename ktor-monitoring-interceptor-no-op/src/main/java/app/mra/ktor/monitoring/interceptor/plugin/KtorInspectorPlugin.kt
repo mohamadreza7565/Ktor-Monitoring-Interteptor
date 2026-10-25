@@ -9,6 +9,13 @@ val KtorInspectorStartTimeKey = AttributeKey<Long>("KtorInspectorStartTime")
 
 suspend fun extractRequestBodyText(content: Any?): String? = null
 
-val KtorInspector = createClientPlugin("KtorInspector", ::InspectorConfig) {
+val KtorMonitoringInspector = createClientPlugin("KtorMonitoringInspector", ::InspectorConfig) {
     // No-Op: Does nothing
 }
+
+@Deprecated(
+    message = "Use KtorMonitoringInspector instead",
+    replaceWith = ReplaceWith("KtorMonitoringInspector")
+)
+val KtorInspector = KtorMonitoringInspector
+
