@@ -37,7 +37,7 @@ mavenPublishing {
     publishToMavenCentral(SonatypeHost.CENTRAL_PORTAL, true)
     signAllPublications()
 
-    coordinates("io.github.mohamadreza7565", "ktor-monitoring-interceptor", "1.0.7")
+    coordinates("io.github.mohamadreza7565", "ktor-monitoring-interceptor", "1.0.8")
 
     pom {
         name.set("Ktor Monitoring Interceptor")
