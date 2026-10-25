@@ -1,9 +1,9 @@
 {
   "formatVersion": "1.1",
   "component": {
-    "group": "com.github.mohamadreza7565.Ktor-Monitoring-Interteptor",
+    "group": "com.github.mohamadreza7565",
     "module": "ktor-monitoring-interceptor-no-op",
-    "version": "1.0.3",
+    "version": "1.0.8",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -33,13 +33,13 @@
       ],
       "files": [
         {
-          "name": "ktor-monitoring-interceptor-no-op-1.0.3.aar",
-          "url": "ktor-monitoring-interceptor-no-op-1.0.3.aar",
-          "size": 23675,
-          "sha512": "b1b7031f42a95e5fb953d4bbed7302c6227c63aa46f21e9d4a59016209b8f593559c0fc3477c1f4b72dc161296ae868f742c3ec373fa1bcc3d0965398852c683",
-          "sha256": "41f6df03906070929135c07a7bbc2df6548f7875c7c0249dc05edd6dc52f0036",
-          "sha1": "5e8df52066387fa9ba18613f89fb7325f49e31f0",
-          "md5": "a07d0ca22c088a34f2de496b857f6cff"
+          "name": "ktor-monitoring-interceptor-no-op-1.0.8.aar",
+          "url": "ktor-monitoring-interceptor-no-op-1.0.8.aar",
+          "size": 24019,
+          "sha512": "be77d3a8904aed4fca0167fc00d78bfb3b2367ad29128839d7bb92b9e3b8c0188e7c7e28b0bf4aca6f9295b50769c93bf7be729cb9e5b97896fd4c998228a453",
+          "sha256": "b8ff2e14d827a82eefb1e96d533d0a956eed38796d606c3ce9043a620500c22e",
+          "sha1": "36c603147e72e1b7a987f296e013a54064a001ea",
+          "md5": "41edd028f2d7b4898cc64248c65fbbdf"
         }
       ]
     },
@@ -83,13 +83,13 @@
       ],
       "files": [
         {
-          "name": "ktor-monitoring-interceptor-no-op-1.0.3.aar",
-          "url": "ktor-monitoring-interceptor-no-op-1.0.3.aar",
-          "size": 23675,
-          "sha512": "b1b7031f42a95e5fb953d4bbed7302c6227c63aa46f21e9d4a59016209b8f593559c0fc3477c1f4b72dc161296ae868f742c3ec373fa1bcc3d0965398852c683",
-          "sha256": "41f6df03906070929135c07a7bbc2df6548f7875c7c0249dc05edd6dc52f0036",
-          "sha1": "5e8df52066387fa9ba18613f89fb7325f49e31f0",
-          "md5": "a07d0ca22c088a34f2de496b857f6cff"
+          "name": "ktor-monitoring-interceptor-no-op-1.0.8.aar",
+          "url": "ktor-monitoring-interceptor-no-op-1.0.8.aar",
+          "size": 24019,
+          "sha512": "be77d3a8904aed4fca0167fc00d78bfb3b2367ad29128839d7bb92b9e3b8c0188e7c7e28b0bf4aca6f9295b50769c93bf7be729cb9e5b97896fd4c998228a453",
+          "sha256": "b8ff2e14d827a82eefb1e96d533d0a956eed38796d606c3ce9043a620500c22e",
+          "sha1": "36c603147e72e1b7a987f296e013a54064a001ea",
+          "md5": "41edd028f2d7b4898cc64248c65fbbdf"
         }
       ]
     },
@@ -103,13 +103,13 @@
       },
       "files": [
         {
-          "name": "ktor-monitoring-interceptor-no-op-1.0.3-sources.jar",
-          "url": "ktor-monitoring-interceptor-no-op-1.0.3-sources.jar",
-          "size": 6014,
-          "sha512": "33ef5c468da24e50715c87635be6e67698a59a0d78f9839f0e559f86b4b6d20b209bd13ff6522131d0465bfa1ef2b8bc0a01d4ccd2c778919d933a0cf4249696",
-          "sha256": "1983d5e3d1dae5b6e0a0b6841da7381c429cb378e9842868cb8018117bed79ed",
-          "sha1": "034f09f8beccb3f51af7d350c3bb31a7349c7c09",
-          "md5": "eb5661dc89390ca9ef6730856f82d9df"
+          "name": "ktor-monitoring-interceptor-no-op-1.0.8-sources.jar",
+          "url": "ktor-monitoring-interceptor-no-op-1.0.8-sources.jar",
+          "size": 6065,
+          "sha512": "5312afc95a68a0c34750f01bd0baf9b7b3ba64fd0269de09f6a5c1e5770bab774ba9445b423c39db2fb246c22a6cea7f845832cac74827d2b6b1fd1d9a50a703",
+          "sha256": "0bb41c4fe0cb8e1ae8fdef5d03fade534b09f985f461cc1f29e7f1bfa97b536d",
+          "sha1": "38e1e845287b1994c6c62ba561cbadeca20adf02",
+          "md5": "a6190722546fc80c51e0d59de30a1a76"
         }
       ]
     }
