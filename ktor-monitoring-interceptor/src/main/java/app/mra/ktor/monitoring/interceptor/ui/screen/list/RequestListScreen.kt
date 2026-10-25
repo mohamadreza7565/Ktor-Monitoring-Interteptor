@@ -16,7 +16,6 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import app.mra.ktor.monitoring.interceptor.model.NetworkLog
 import app.mra.ktor.monitoring.interceptor.store.InspectorLogStore
-import okhttp3.internal.toImmutableList
 import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale
@@ -40,7 +39,7 @@ fun RequestListScreen(
                 else -> true
             }
             matchesSearch && matchesFilter
-        }.sortedByDescending { it.timestamp }.toImmutableList()
+        }.sortedByDescending { it.timestamp }.toList()
     }
 
     Scaffold(
