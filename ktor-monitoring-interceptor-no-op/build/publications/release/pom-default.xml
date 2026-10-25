@@ -7,10 +7,31 @@
   <!-- that they should prefer consuming it instead. -->
   <!-- do_not_remove: published-with-gradle-metadata -->
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.github.mohamadreza7565.Ktor-Monitoring-Interteptor</groupId>
+  <groupId>com.github.mohamadreza7565</groupId>
   <artifactId>ktor-monitoring-interceptor-no-op</artifactId>
-  <version>1.0.3</version>
+  <version>1.0.8</version>
   <packaging>aar</packaging>
+  <name>Ktor Monitoring Interceptor No-Op</name>
+  <description>No-Op variant for Ktor Monitoring Interceptor on Android</description>
+  <url>https://github.com/mohamadreza7565/Ktor-Monitoring-Interteptor</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mohamadreza7565</id>
+      <name>Mohammadreza Allahgholi</name>
+      <email>mohamadreza7565@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/mohamadreza7565/Ktor-Monitoring-Interteptor.git</connection>
+    <developerConnection>scm:git:ssh://github.com/mohamadreza7565/Ktor-Monitoring-Interteptor.git</developerConnection>
+    <url>https://github.com/mohamadreza7565/Ktor-Monitoring-Interteptor</url>
+  </scm>
   <dependencies>
     <dependency>
       <groupId>org.jetbrains.kotlin</groupId>
